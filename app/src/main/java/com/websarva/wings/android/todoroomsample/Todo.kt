@@ -21,11 +21,11 @@ import androidx.room.PrimaryKey
  */
 @Entity(tableName = "todo_table")
 data class Todo(
-    @PrimaryKey @ColumnInfo(name = "task_id") val taskId: Int,
-    @ColumnInfo(name = "task_name") val taskName: String,
-    @ColumnInfo(name = "created_at") val createdAt: String,
-    @ColumnInfo(name = "updated_at") val updatedAt: String,
-    @ColumnInfo(name = "expired") val expired: String,
-    @ColumnInfo(name = "description") val description: String,
-    @ColumnInfo(name = "status") val status: Int
+//    @ColumnInfo(name = "task_id") val taskId: Int,
+    @PrimaryKey @ColumnInfo(name = "task_name") val taskName: String,
+//    @ColumnInfo(name = "created_at") val createdAt: String,
+//    @ColumnInfo(name = "updated_at") val updatedAt: String,
+//    @ColumnInfo(name = "expired") val expired: String,
+//    @ColumnInfo(name = "description") val description: String,
+//    @ColumnInfo(name = "status") val status: Int
 )
